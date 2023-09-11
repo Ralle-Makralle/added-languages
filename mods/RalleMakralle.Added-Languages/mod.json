@@ -1,0 +1,38 @@
+{
+    "Name": "RalleMakralle.Added-Languages",
+    "Description": "A mod that adds more languages to the game",
+    "Version": "0.0.1",
+
+    "LoadPriority": 0,
+    "ConVars": [
+        {
+            "Name": "ns_private_match_last_mode",
+            "DefaultValue": "tdm"
+        },
+        {
+            "Name": "ns_private_match_last_map",
+            "DefaultValue": "mp_forwardbase_kodai"
+        }
+    ],
+    "Scripts": [
+        {
+            "Path": "/Scripts/script1.nut",
+            "RunOn": "( CLIENT || SERVER ) && MP"
+         },
+         {
+            "Path": "/Scripts/script2.nut",
+            "RunOn": "( CLIENT || SERVER ) && MP",
+            "ClientCallback": {
+               "Before": "ClientPreMapspawnThing",
+               "After": "AfterMapspawnClientThing"
+            },
+            "ServerCallback": {
+               "Before": "ServerPreMapspawncrap",
+               "After": "ServerAfterMapspawnWoo"
+            }
+         }
+    ],
+    "Localisation": [
+        "/english.txt"
+    ]
+}
