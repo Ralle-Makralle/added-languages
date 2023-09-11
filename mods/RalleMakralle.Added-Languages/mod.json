@@ -1,7 +1,7 @@
 {
     "Name": "RalleMakralle.Added-Languages",
     "Description": "A mod that adds more languages to the game",
-    "Version": "0.0.1",
+    "Version": "0.0.2",
 
     "LoadPriority": 0,
     "ConVars": [

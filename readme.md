@@ -1,4 +1,5 @@
 # Added languages mod
+A mod that adds additional languages to the Northstar client that is not in the base game for more positive expirience for non english speakers and non native english speakers
 
 ## Installation
 just drag and drop the added languages folder in the mods folder Norhstar made

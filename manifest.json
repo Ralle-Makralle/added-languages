@@ -1,0 +1,7 @@
+{
+    "name": "AddedLanguages",
+    "description": "Adds more languages to the Northstar client that is not in the base game to make it easier for non english speakers to enjoy the masterpiece game titanfall 2. Made with love by RalleMakralle on discord.",
+    "version_number": "0.0.2",
+    "dependencies": [],
+    "website_url": "https://github.com/Ralle-Makralle/added-languages"
+}
